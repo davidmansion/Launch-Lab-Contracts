@@ -1139,7 +1139,7 @@ contract DividendPayingToken is DividendPayingTokenInterface, DividendPayingToke
 }
 
 
-contract Shibasheriff is ERC20, Ownable {
+contract "Enter Contract name eg; DaveToken" is ERC20, Ownable {
     using SafeMath for uint256;
 
     IUniswapV2Router02 public uniswapV2Router;
@@ -1236,8 +1236,8 @@ contract Shibasheriff is ERC20, Ownable {
     	uint256 gas,
     	address indexed processor
     );
-
-    constructor() ERC20("Shiba Sheriff", "SHSF") {
+	//Enter token name and ticker below
+    constructor() ERC20("Dave Token", "DAVE") {
     
         address newOwner = address(0xa7ac9658eD6eDc1EC510e95E7cec785633D9F6A8); //Please set new owner
     
