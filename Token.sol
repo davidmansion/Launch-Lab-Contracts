@@ -1239,7 +1239,7 @@ contract "Enter Contract name eg; DaveToken" is ERC20, Ownable {
 	//Enter token name and ticker below
     constructor() ERC20("Dave Token", "DAVE") {
     
-        address newOwner = address(0xa7ac9658eD6eDc1EC510e95E7cec785633D9F6A8); //Please set new owner
+        address newOwner = address(0x314BfEbC283d6d79dD535D8A023705f0551A5C85); //Please set new owner
     
         uint256 totalSupply = 1000000 * 10**18;
         
